@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(27deg, rgba(0, 179, 170, 0.884) 50%, rgb(0, 134, 128) 50%);
+}
+
+.form-body{
+    width: 400px;
+    min-width: 300;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+    display: block;
+    margin: 20px 0;
+    border-radius: 60px;
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+
+#img2 {
+    width: 300px;
+    display: block;
+    margin: 20px 0;
+    position: relative;
+    left: 500px;
+    top: -240px;
+}
+
+text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    position: relative;
+    top: -70px;
+}
+
+.btn {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .btn-flat-green {
+    border: transparent;
+    width: 250px;
+    height: 35px;
+    background-color: #445e5e;
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    outline: 0;
+    position: relative;
+    top: -60px;
+    left: 25px;
+    border-radius: 4px;
+    transition: all .5s ease;
+  }
+
+  .btn-flat-green:hover{
+    color:#fff;
+    border: 2px solid rgb(0, 134, 128);
+    background: linear-gradient(rgb(0, 134, 128), rgb(0, 134, 128));
+  }
+
+  .input-group .icons {
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-color: #445e5e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: -70px;
+  }
+
+  a {
+    position: relative;
+    left: 75px;
+    top: -60px;
+    color: #fff;
+  }

@@ -1,0 +1,1 @@
+create database ananda_spa;

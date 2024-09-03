@@ -1,0 +1,9 @@
+#cargando {
+    display: none;
+}
+body{
+    background-color: rgb(66, 221, 169);
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
